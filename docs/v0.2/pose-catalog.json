@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "target_version": "0.2",
+  "status": "design_only",
+  "photo_commit": "1a56c5832c7bf8d843c605ce1b3ea2eedc79b515",
+  "photo_count": 35,
+  "identity_photos": [
+    "pic/微信图片_20261030144217_401_52.jpg",
+    "pic/微信图片_20261030144222_404_52.jpg",
+    "pic/微信图片_20261030144246_418_52.jpg",
+    "pic/微信图片_20261030144255_423_52.jpg",
+    "pic/微信图片_20261030144033_399_52.jpg"
+  ],
+  "evidence_values": {
+    "observed_family": "照片中观察到该姿势大类，并非逐像素复刻。",
+    "adapted": "按照片调整接地、前后爪或身体关系。",
+    "designed": "补充设计；照片只支持体型和外观，不记录完整动作。"
+  },
+  "rest_nonrepeat": {
+    "scope": "normal_autonomous_rest_selection",
+    "cycle_size": 24,
+    "recent_across_cycles": 8,
+    "persist_bag_and_recent": true,
+    "manual_and_quiet_hold_exempt": true,
+    "mirror_or_head_only_variants_count_as_new": false
+  },
+  "rest_poses": [
+    {
+      "id": "R01",
+      "name": "双爪完全揣起",
+      "family": "loaf",
+      "support": "prone",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144239_415_52.jpg"
+      ],
+      "description": "腹胸贴地，双前爪收入身体下面；四肢整体形成稳定低轮廓。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R02",
+      "name": "露出一只前爪",
+      "family": "loaf",
+      "support": "prone",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144239_415_52.jpg"
+      ],
+      "description": "一只前爪向前落地，另一只仍收在胸下，双侧承重点不同。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R03",
+      "name": "下巴贴地小面包",
+      "family": "loaf",
+      "support": "prone",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144239_415_52.jpg",
+        "pic/微信图片_20261030144024_398_52.jpg"
+      ],
+      "description": "双前爪收起，下巴也接地，胸颈随呼吸低伏。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R04",
+      "name": "平行前爪狮身趴",
+      "family": "sphinx",
+      "support": "prone",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030144239_415_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg"
+      ],
+      "description": "胸腹贴地，双前爪平行前放，肘部弯曲、头抬起。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R05",
+      "name": "交叉前爪趴",
+      "family": "sphinx",
+      "support": "prone",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030144239_415_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg"
+      ],
+      "description": "胸腹贴地，前肢在胸前交叉，尾巴放在身体侧面。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R06",
+      "name": "长前腿低趴",
+      "family": "sphinx",
+      "support": "prone",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144239_415_52.jpg"
+      ],
+      "description": "双前腿向前伸长，下巴落到两腿之间，胸腹保持接地。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R07",
+      "name": "前肘支起的侧躺",
+      "family": "side",
+      "support": "side",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144225_407_52.jpg",
+        "pic/微信图片_20261030144244_417_52.jpg"
+      ],
+      "description": "身体侧靠胯部，前肘支起，后腿向侧面放开。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R08",
+      "name": "一爪伸长侧躺",
+      "family": "side",
+      "support": "side",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144225_407_52.jpg"
+      ],
+      "description": "一只前爪沿地伸长，另一只收向胸口，头仍抬着。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R09",
+      "name": "枕双爪侧睡",
+      "family": "side",
+      "support": "side",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144024_398_52.jpg",
+        "pic/微信图片_20261030144244_417_52.jpg"
+      ],
+      "description": "身体完全侧放，双前爪并拢放在脸下，头部压低。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R10",
+      "name": "C形团睡",
+      "family": "curl",
+      "support": "curl",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144009_397_52.jpg"
+      ],
+      "description": "身体弯成C形，后腿靠近头，尾巴沿外轮廓包住身体。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R11",
+      "name": "前胸略起的半蜷",
+      "family": "curl",
+      "support": "curl",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144009_397_52.jpg",
+        "pic/微信图片_20261030144249_420_52.jpg"
+      ],
+      "description": "后腿收向腹部，身体侧靠一边胯，前胸保持支起而不完全伏地。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R12",
+      "name": "蜷起遮半张脸",
+      "family": "curl",
+      "support": "curl",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030144009_397_52.jpg",
+        "pic/微信图片_20261030144024_398_52.jpg"
+      ],
+      "description": "紧凑蜷身，一只弯曲前腿盖住脸的一部分，另一只前爪收向内。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R13",
+      "name": "自然四爪露肚",
+      "family": "belly",
+      "support": "back",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144227_408_52.jpg",
+        "pic/微信图片_20261030144314_429_52.jpg"
+      ],
+      "description": "仰躺，前后爪均松松弯曲，腹部朝上。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R14",
+      "name": "海星露肚",
+      "family": "belly",
+      "support": "back",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144228_409_52.jpg",
+        "pic/微信图片_20261030144238_414_52.jpg"
+      ],
+      "description": "仰躺，两后腿向外放松展开，双前爪靠胸，头偏向一侧。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R15",
+      "name": "侧倾露肚抬一爪",
+      "family": "belly",
+      "support": "back",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144240_416_52.jpg"
+      ],
+      "description": "身体侧仰约45度，露出腹毛，一只前爪抬起、另一只靠胸。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R16",
+      "name": "前后两端伸长",
+      "family": "stretch",
+      "support": "side",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg"
+      ],
+      "description": "侧躺，前腿向头顶方向伸出，后腿向另一端舒展，保留身长。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R17",
+      "name": "S形扭腰侧卧",
+      "family": "stretch",
+      "support": "side",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144240_416_52.jpg"
+      ],
+      "description": "胸腹与胯部轻微反向转动，前爪抱近胸、后腿向一侧伸开。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R18",
+      "name": "后腿朝后的平趴",
+      "family": "stretch",
+      "support": "prone",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg"
+      ],
+      "description": "胸腹接地，后腿向后自然放松，一只前爪弯在胸前；重点校准髋膝关节。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R19",
+      "name": "侧躺悬空伸爪",
+      "family": "lazy_play",
+      "support": "side",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144225_407_52.jpg",
+        "pic/微信图片_20261030144314_429_52.jpg"
+      ],
+      "description": "身体侧放，头抬起，一前爪悬空向前探，另一前爪支地。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R20",
+      "name": "半侧仰勾爪",
+      "family": "lazy_play",
+      "support": "back",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144310_427_52.jpg"
+      ],
+      "description": "半侧仰，弯起一只前肘、爪尖向内勾，另一前爪收向胸口。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R21",
+      "name": "仰躺抬双爪",
+      "family": "lazy_play",
+      "support": "back",
+      "evidence": "observed_family",
+      "source_photos": [
+        "pic/微信图片_20261030144314_429_52.jpg"
+      ],
+      "description": "仰躺，两只前爪一起抬向观察者，后腿保持放松。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R22",
+      "name": "枕叠放的爪睡",
+      "family": "deep_sleep",
+      "support": "prone",
+      "evidence": "adapted",
+      "source_photos": [
+        "pic/微信图片_20261030144024_398_52.jpg",
+        "pic/微信图片_20261030144239_415_52.jpg"
+      ],
+      "description": "前爪一上一下叠在地上，下巴放在叠爪上，腹部低伏。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R23",
+      "name": "伸长侧睡盖眼",
+      "family": "deep_sleep",
+      "support": "side",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030144024_398_52.jpg",
+        "pic/微信图片_20261030144009_397_52.jpg"
+      ],
+      "description": "身体保持伸长侧睡，一只前爪盖住眼睛，另一只落地。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    },
+    {
+      "id": "R24",
+      "name": "半蜷抱尾睡",
+      "family": "deep_sleep",
+      "support": "curl",
+      "evidence": "designed",
+      "source_photos": [
+        "pic/微信图片_20261030144009_397_52.jpg",
+        "pic/微信图片_20261030144024_398_52.jpg"
+      ],
+      "description": "半蜷侧放，双前爪轻抱自己的尾巴，脸贴近尾部睡。",
+      "asset_status": "concept_only",
+      "entry_and_exit_required": true
+    }
+  ],
+  "standing_poses": [
+    {
+      "id": "S01",
+      "name": "四足自然站",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "侧面四爪接地，背线平稳，尾巴自然低垂。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S02",
+      "name": "抬头警觉站",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144217_401_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "三分之四方向站立，头抬起、耳朵转向，尾尖微翘。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S03",
+      "name": "低头嗅地",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144217_401_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "四足支撑，颈部弯下嗅地，不把胸部拖到地上。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S04",
+      "name": "抬一只前爪",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "三足承重，一前爪抬起略作犹豫，身体保持平衡。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S05",
+      "name": "后移重心放松站",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "四足接地，重心略后移，肩胛和前肢放松。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S06",
+      "name": "前伸懒腰",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "前爪前伸、前胸压低，后腿保持站立，臀部升高。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S07",
+      "name": "伸一只后腿",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "三足支撑，一后腿向后伸展，髋膝方向自然。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S08",
+      "name": "站立回头",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144246_418_52.jpg",
+        "pic/微信图片_20261030144255_423_52.jpg",
+        "pic/微信图片_20261030144033_399_52.jpg"
+      ],
+      "description": "后方三分之四朝向，头先回转、肩胯随后，四肢仍稳定支撑。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S09",
+      "name": "慢走起步",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg",
+        "pic/微信图片_20261030144033_399_52.jpg"
+      ],
+      "description": "一前爪迈出、一后爪蹬地，身体没有腾空。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S10",
+      "name": "后缩半步",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030144217_401_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "压低重心、收一前爪向后退，耳朵略偏侧，动作轻。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S11",
+      "name": "小跳蓄力",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "后腿弯曲承重，前腿轻弯，尾尖微抬。",
+      "asset_status": "concept_only"
+    },
+    {
+      "id": "S12",
+      "name": "前爪先着地",
+      "evidence": "designed",
+      "source_role": "identity_and_anatomy_only",
+      "source_photos": [
+        "pic/微信图片_20261030143846_396_52.jpg",
+        "pic/微信图片_20261030144222_404_52.jpg",
+        "pic/微信图片_20261030144246_418_52.jpg"
+      ],
+      "description": "前爪接地，肩肘吸收冲击，后腿即将跟上，重心不穿地。",
+      "asset_status": "concept_only"
+    }
+  ]
+}

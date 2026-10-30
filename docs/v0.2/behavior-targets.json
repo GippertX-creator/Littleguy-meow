@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target_version": "0.2",
+  "status": "design_only_not_runtime_config",
+  "render": {
+    "auto_max_hz": 144,
+    "quality_modes": [
+      "auto",
+      60,
+      120,
+      144,
+      "power_saving"
+    ],
+    "simulation_hz": 120,
+    "measure_actual_presentation": true,
+    "gpu_texture_budget_mib": 128,
+    "working_set_goal_mib": 256,
+    "performance_verified": false
+  },
+  "autonomy": {
+    "rest_seconds": [
+      20,
+      50
+    ],
+    "outing_seconds": [
+      8,
+      16
+    ],
+    "gait_segment_weights": {
+      "slow": 0.7,
+      "lively": 0.2,
+      "small_hop": 0.1
+    },
+    "speed_body_lengths_per_second": {
+      "slow": [
+        0.25,
+        0.4
+      ],
+      "lively": [
+        0.45,
+        0.65
+      ],
+      "chase": [
+        0.9,
+        1.4
+      ]
+    },
+    "hop_height_body_lengths": [
+      0.05,
+      0.12
+    ],
+    "hop_seconds": [
+      0.3,
+      0.5
+    ],
+    "consecutive_hops": [
+      1,
+      3
+    ]
+  },
+  "play": {
+    "next_opportunity_seconds": [
+      120,
+      300
+    ],
+    "resume_grace_seconds": 15,
+    "notice_seconds": [
+      0.15,
+      0.35
+    ],
+    "prepare_seconds": [
+      0.25,
+      0.55
+    ],
+    "chase_seconds": [
+      1,
+      3
+    ],
+    "whole_sequence_seconds": [
+      2,
+      6
+    ],
+    "max_path_body_lengths": 8,
+    "cursor_prediction_max_seconds": 0.2,
+    "last_cursor_memory_seconds": 8,
+    "temporary_clickthrough": true,
+    "startle_suppressed_during_play": true,
+    "debt_while_inactive": false
+  },
+  "rest_pose_rotation": {
+    "scope": "normal_autonomous_rest_selection",
+    "cycle_size": 24,
+    "recent_across_cycles": 8,
+    "persist_bag_and_recent": true,
+    "manual_and_quiet_hold_exempt": true,
+    "mirror_or_head_only_variants_count_as_new": false
+  },
+  "entry_clip_required_for_supports": [
+    "prone",
+    "side",
+    "back",
+    "curl"
+  ],
+  "design_assertions": [
+    "Stable identity across all views",
+    "No foot skating during stance",
+    "No teleport or instant mirror on turns",
+    "Every small hop has preparation and landing",
+    "No cursor locking or click interception during chase",
+    "Use actual intermediate motion, not only pose crossfades",
+    "Do not label concepts as completed animation assets"
+  ]
+}

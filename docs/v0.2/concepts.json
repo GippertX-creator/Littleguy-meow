@@ -1,0 +1,79 @@
+{
+  "target_version": "0.2",
+  "status": "design_only",
+  "photo_sources": "pose-catalog.json",
+  "boards": [
+    {
+      "file": "concepts/rest-r01-r12.png",
+      "intended_pose_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "90d11748fbb5d20ffa4d795f790f8d2b6f47b26ae7d3aa8665ba8aeedca98af2",
+      "role": "concept_board",
+      "approved_for_runtime_animation": false
+    },
+    {
+      "file": "concepts/rest-r13-r24.png",
+      "intended_pose_ids": [
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24"
+      ],
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "de0a356c9e955033b425782d8d87ae61442adc4b2c9d9c99eb7bd05afe2028ee",
+      "role": "concept_board",
+      "approved_for_runtime_animation": false
+    },
+    {
+      "file": "concepts/standing-s01-s12.png",
+      "intended_pose_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "52e1d3a3884b816bafe0487e18caaedf0bb47478da6892f47a2d7df7cf87065d",
+      "role": "concept_board",
+      "approved_for_runtime_animation": false
+    }
+  ]
+}
